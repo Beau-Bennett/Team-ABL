@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HelpPopup : MonoBehaviour
+public class HelpPopups : MonoBehaviour
 {
     public GameObject helpPanel;
 

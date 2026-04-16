@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 19450477}
   - component: {fileID: 19450476}
   - component: {fileID: 19450475}
+  - component: {fileID: 19450478}
   m_Layer: 5
   m_Name: HelpPanel
   m_TagString: Untagged
@@ -153,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -197,6 +198,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &19450478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19450474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130e2a66e29b8449cae23ef6e1ad3873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpPanel: {fileID: 0}
 --- !u!1 &52890490
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &572622267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1291,7 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 130e2a66e29b8449cae23ef6e1ad3873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpPanel: {fileID: 19450474}
+  helpPanel: {fileID: 1226259252}
 --- !u!4 &797607542
 Transform:
   m_ObjectHideFlags: 0
@@ -1500,13 +1514,13 @@ Transform:
   m_GameObject: {fileID: 1226259252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2162165, y: -981742.44, z: -1579}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -20234226, y: -9186968, z: 0}
+  m_LocalScale: {x: 9.353074, y: 9.353074, z: 9.353074}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 19450477}
   - {fileID: 572622269}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1578573817}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1348504953
 GameObject:
@@ -1870,6 +1884,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1758138309}
+  - {fileID: 1226259253}
   - {fileID: 960759818}
   - {fileID: 142784491}
   - {fileID: 1729775888}
@@ -2521,4 +2536,3 @@ SceneRoots:
   - {fileID: 385353664}
   - {fileID: 633159674}
   - {fileID: 797607542}
-  - {fileID: 1226259253}
