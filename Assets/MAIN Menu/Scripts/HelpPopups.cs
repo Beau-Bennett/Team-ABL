@@ -1,16 +1,22 @@
 using UnityEngine;
+using TMPro;
 
 public class HelpPopups : MonoBehaviour
 {
-    public GameObject helpPanel;
+    public GameObject HelpPanel;
+    public GameObject CreditsPanel;
 
     public void ShowHelp()
     {
-        helpPanel.SetActive(true);
+        bool isActive = HelpPanel.activeSelf;  
+        HelpPanel.SetActive(!isActive);  
+    }
+    public void ShowCredits()
+    {
+        bool isActive = CreditsPanel.activeSelf;  
+        CreditsPanel.SetActive(!isActive);  
     }
 
-    public void HideHelp()
-    {
-        helpPanel.SetActive(false);
-    }
+    
+    
 }
